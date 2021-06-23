@@ -1,0 +1,77 @@
+body {
+    margin: 0px
+    ;
+} 
+
+
+ul {
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    
+}
+.substyle > li {
+    width: 100%;
+}
+.navstyle {
+   font-size: 0;
+}
+
+
+.navstyle li:hover {
+    background-color: #3c805b;
+}
+
+
+
+.linkstyle {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 20px 25px;
+    
+}
+
+.ulstyle .listyle {
+    display: inline-block;
+} 
+
+.ulstyle li {
+    background-color: #47986d;
+    font-size: 2rem;
+    border: 1px solid #3c805b;
+}
+
+
+.listyle {
+    position: relative;
+    right: 0%;
+    left:0%;
+     
+}
+
+
+.substyle {
+     display: none;
+    position: absolute;
+    top:100%;
+    left:0%    
+}
+
+.substyletwo {
+    display: none;
+    position: absolute;
+    top:0%;
+    left:100%;
+}
+
+
+.listyle:hover > .substyle {  
+    display: block;
+}
+
+.listyle:hover > .substyletwo {  
+    display: block;
+}
+ 
+ 
